@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dashmesh Travel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/82dc758c6a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome css link -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/fav.png"
+      type="image/x-icon"
+    />
+    <!-- swipper css link -->
+    <link rel="stylesheet" href="assets/css/swiper.min.css" />
+    <!-- lightcase css links -->
+    <link rel="stylesheet" href="assets/css/lightcase.css" />
+    <!-- odometer css link -->
+    <link rel="stylesheet" href="assets/css/odometer.css" />
+    <!-- line-awesome-icon css -->
+    <link rel="stylesheet" href="assets/css/icomoon.css" />
+    <!-- line-awesome-icon css -->
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css" />
+    <!-- animate.css -->
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <!-- aos.css -->
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <!-- nice select css -->
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <!-- main style css link -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="page-wrapper">
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Preloader
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <div class="preloader">
+        <svg
+          role="img"
+          aria-label="Mouth and eyes come from 9:00 and rotate clockwise into position, right eye blinks, then all parts rotate and merge into 3:00"
+          class="smiley"
+          viewBox="0 0 128 128"
+          width="128px"
+          height="128px"
+        >
+          <defs>
+            <clipPath id="smiley-eyes">
+              <circle
+                class="smiley__eye1"
+                cx="64"
+                cy="64"
+                r="8"
+                transform="rotate(-40,64,64) translate(0,-56)"
+              />
+              <circle
+                class="smiley__eye2"
+                cx="64"
+                cy="64"
+                r="8"
+                transform="rotate(40,64,64) translate(0,-56)"
+              />
+            </clipPath>
+            <linearGradient id="smiley-grad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#000" />
+              <stop offset="100%" stop-color="#fff" />
+            </linearGradient>
+            <mask id="smiley-mask">
+              <rect
+                x="0"
+                y="0"
+                width="128"
+                height="128"
+                fill="url(#smiley-grad)"
+              />
+            </mask>
+          </defs>
+          <g
+            stroke-linecap="round"
+            stroke-width="12"
+            stroke-dasharray="175.93 351.86"
+          >
+            <g>
+              <rect
+                fill="hsl(193,90%,50%)"
+                width="128"
+                height="64"
+                clip-path="url(#smiley-eyes)"
+              />
+              <g fill="none" stroke="hsl(193,90%,50%)">
+                <circle
+                  class="smiley__mouth1"
+                  cx="64"
+                  cy="64"
+                  r="56"
+                  transform="rotate(180,64,64)"
+                />
+                <circle
+                  class="smiley__mouth2"
+                  cx="64"
+                  cy="64"
+                  r="56"
+                  transform="rotate(0,64,64)"
+                />
+              </g>
+            </g>
+            <g mask="url(#smiley-mask)">
+              <rect
+                fill="hsl(223,90%,50%)"
+                width="128"
+                height="64"
+                clip-path="url(#smiley-eyes)"
+              />
+              <g fill="none" stroke="hsl(223,90%,50%)">
+                <circle
+                  class="smiley__mouth1"
+                  cx="64"
+                  cy="64"
+                  r="56"
+                  transform="rotate(180,64,64)"
+                />
+                <circle
+                  class="smiley__mouth2"
+                  cx="64"
+                  cy="64"
+                  r="56"
+                  transform="rotate(0,64,64)"
+                />
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Preloader
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Header
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <header class="header-section header-section-one">
+        <div class="header">
+          <div class="header-bottom-area">
+            <div class="container-fluid">
+              <div class="header-menu-content">
+                <nav class="navbar navbar-expand-lg p-0">
+                  <a class="site-logo site-title" href="index.html"
+                    ><img src="assets/images/logo.png" alt="site-logo"
+                  /></a>
+                  <button
+                    class="navbar-toggler ml-auto"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="fas fa-bars"></span>
+                  </button>
+                  <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                  >
+                    <ul class="navbar-nav main-menu ml-auto">
+                      <li><a href="index.html">Home</a></li>
+
+                      <li class="menu_has_children">
+                        <a href="service.html">Our Services</a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="employee-transport.html"
+                              >Corporate Employee Transport</a
+                            >
+                          </li>
+                          <li>
+                            <a href="school.html"
+                              >School Faculty/Student Transport</a
+                            >
+                          </li>
+                          <li>
+                            <a href="college.html"
+                              >College Faculty/Student Transport</a
+                            >
+                          </li>
+                          <li>
+                            <a href="events.html">Event Transport</a>
+                          </li>
+
+                          <li>
+                            <a href="tour.html">Customised Tour Transport</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="faq.html">Faq</a></li>
+                      <li><a href="about.html">About Us</a></li>
+                    </ul>
+                    <div class="header-right">
+                      <div class="search-bar d-none d-lg-block"></div>
+                      <div class="header-action-area">
+                        <a href="contact.html" class="action-btn two"
+                          ><i class="fa-solid fa-phone"></i
+                        ></a>
+                        <div class="header-action">
+                          <a href="contact.html" class="btn--base"
+                            ><i class="fa-solid fa-phone"></i>Contact Us</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Header
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Banner
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <section
+        class="banner-section inner-banner-section bg-overlay-black bg_img"
+        data-background="assets/images/bg/inner-bg.png"
+      >
+        <div class="container-fluid">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-xl-12 text-center">
+              <div class="banner-content">
+                <h1 class="title">College Faculty/Student Transport</h1>
+                <div class="breadcrumb-area">
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item">
+                        <a href="index.html">Home</a>
+                      </li>
+                      <li class="breadcrumb-item active" aria-current="page">
+                        College Faculty/Student Transport
+                      </li>
+                    </ol>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Banner
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start About
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <section
+        class="about-section about--style about--style-three page-wrapper-two ptb-120"
+      >
+        <div class="container">
+          <div class="row justify-content-center align-items-center mb-30-none">
+            <div class="col-xl-6 col-lg-6 mb-30">
+              <div class="about-thumb">
+                <img src="assets/images/about-college.png" alt="about" />
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 mb-30">
+              <div class="about-content">
+                <h2 class="title">Why Choose Dashmesh Travel for college?</h2>
+                <p>
+                  We have been in the travels business for more than 20 years.
+                  We are uniquely placed as the best & the largest
+                  chauffeur-driven taxi/bus/tempo-traveller rental/College
+                  transportation service provider in Noida, Greater Noida &
+                  Delhi in terms of geographical reach. We’ve been rated 4.8/5
+                  (131 Reviews) on Google My Business and 4.6/5 on Just Dial.
+                  <br />
+                  <br />Dashmesh Travel provides safe, reliable college
+                  transport service in Noida, Greater Noida & Delhi. Our drivers
+                  are highly experienced and have been appropriately trained.<br /><br />
+                  We strive to provide you best, reliable, and affordable
+                  college cab/bus rental service in Noida, Greater Noida, and
+                  Delhi.
+                </p>
+                <div class="about-list-area">
+                  <ul class="about-list">
+                    <li>Professional Drivers</li>
+                    <li>24x7 Service Availibility</li>
+                    <li>Guaranteed Customer Satisfaction</li>
+                    <li>Reliability & Security</li>
+                  </ul>
+                </div>
+                <div class="about-btn">
+                  <a href="contact.html" class="btn--base">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End About
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Statistics
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <section
+        class="statistics-section bg-overlay-black ptb-120 bg_img"
+        data-background="assets/images/bg/bg-2.png"
+      >
+        <div class="container">
+          <div class="statistics-area">
+            <div class="row mb-30-none">
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
+                <div class="statistics-item">
+                  <div class="statistics-content">
+                    <div class="odo-area">
+                      <h3 class="odo-title odometer" data-odometer-final="95">
+                        0
+                      </h3>
+                    </div>
+                    <p>Professional Drivers</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
+                <div class="statistics-item">
+                  <div class="statistics-content">
+                    <div class="odo-area">
+                      <h3 class="odo-title odometer" data-odometer-final="43">
+                        0
+                      </h3>
+                    </div>
+                    <p>Mini Bus</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
+                <div class="statistics-item">
+                  <div class="statistics-content">
+                    <div class="odo-area">
+                      <h3 class="odo-title odometer" data-odometer-final="45">
+                        0
+                      </h3>
+                    </div>
+                    <p>Buses</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
+                <div
+                  class="statistics-item"
+                  data-aos="zoom-in"
+                  data-aos-duration="1200"
+                >
+                  <div class="statistics-content">
+                    <div class="odo-area">
+                      <h3 class="odo-title odometer" data-odometer-final="195">
+                        0
+                      </h3>
+                    </div>
+                    <p>Travels</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    End Statistics
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Feature
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <section class="feature-section page-wrapper-two ptb-120">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-12 text-center">
+              <div class="section-header">
+                <span class="sub-title"><span>Our</span> Service</span>
+                <h2 class="section-title">Find the Best Service For You</h2>
+              </div>
+            </div>
+          </div>
+          <div class="feature-area">
+            <div class="row justify-content-center m-0">
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 p-0">
+                <div class="feature-item">
+                  <div class="feature-icon"></div>
+                  <div class="feature-content">
+                    <h3 class="title">Company Employee transport</h3>
+                    <p>
+                      To Commute employees of MNC’s/ NCs through our
+                      Deluxe/Luxury Coaches, Travellers & Cabs We ensure that
+                      the employees are driven to their office with safety,
+                      punctuality & efficiency.
+                    </p>
+                  </div>
+                  <div class="feature-btn">
+                    <a href="employee-transport.html">Know more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 p-0">
+                <div class="feature-item">
+                  <div class="feature-icon"></div>
+                  <div class="feature-content">
+                    <h3 class="title">School Faculty / Student Transport</h3>
+                    <p>
+                      Dashmesh Travel provides safe, reliable school transport
+                      service in Noida, Greater Noida & Delhi. Our drivers are
+                      highly experienced and have been appropriately trained.
+                    </p>
+                  </div>
+                  <div class="feature-btn">
+                    <a href="school.html">Know more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 p-0">
+                <div class="feature-item">
+                  <div class="feature-icon"></div>
+                  <div class="feature-content">
+                    <h3 class="title">College Faculty / Student Transport</h3>
+                    <p>
+                      Dashmesh Travel provides safe, reliable college transport
+                      service in Noida, Greater Noida & Delhi. Our drivers are
+                      highly experienced and have been appropriately trained.
+                    </p>
+                  </div>
+                  <div class="feature-btn">
+                    <a href="college.html">Know more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 p-0">
+                <div class="feature-item">
+                  <div class="feature-icon"></div>
+                  <div class="feature-content">
+                    <h3 class="title">Event Transport</h3>
+                    <p>
+                      We provide tailor made solutions for all the special
+                      events. Add a touch of elegance to your events with
+                      Dashmesh Fleet of Coaches, Cabs & Travellers. We have it
+                      all to provide you with logistic support for the entire
+                      events.
+                    </p>
+                  </div>
+                  <div class="feature-btn">
+                    <a href="events.html">Know more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 p-0">
+                <div class="feature-item">
+                  <div class="feature-icon"></div>
+                  <div class="feature-content">
+                    <h3 class="title">Customised Tour Transport</h3>
+                    <p>
+                      We Provide Tailor-made solutions for you all over India,
+                      From Leh-Ladakh to Kanyakumari ! Let us know what your
+                      needs are, what you want and we will design it the same
+                      way for you.
+                    </p>
+                  </div>
+                  <div class="feature-btn">
+                    <a href="tour.html">Know more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    End Feature
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Footer
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <footer class="footer-section section--bg pt-120">
+        <div
+          class="footer-element"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          <img src="assets/images/element/element-1.png" alt="element" />
+        </div>
+        <div class="container">
+          <div class="footer-top-area">
+            <div class="row align-items-end mb-30-none">
+              <div class="col-xl-4 col-lg-3 col-md-6 mb-30">
+                <div class="footer-widget">
+                  <div class="footer-logo">
+                    <a class="site-logo site-title" href="index.html"
+                      ><img src="assets/images/logo.png" alt="site-logo"
+                    /></a>
+                  </div>
+                  <p>
+                    Dashmesh Tour & Travel was founded in 2003 as a tour
+                    operator and travel business by Mr. Jitender Pal singh, the
+                    company founder.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom-area">
+            <div class="row mb-30-none">
+              <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                <div class="footer-widget">
+                  <h4 class="title">India</h4>
+                  <ul class="t-white list">
+                    <li>Head Office - Delhi</li>
+                    <li>
+                      Contact : +91-9990633399 <br />
+                      +91-9999433399 <br />
+                      +91-9990433399
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                <div class="footer-widget">
+                  <h4 class="title">Services</h4>
+                  <ul class="footer-list">
+                    <li>
+                      <a href="employee-transport.html"
+                        >Corporate Employee Transport
+                      </a>
+                    </li>
+                    <li>
+                      <a href="school.html"
+                        >School Faculty / Student Transport</a
+                      >
+                    </li>
+                    <li>
+                      <a href="college.html"
+                        >College Faculty / Student Transport</a
+                      >
+                    </li>
+                    <li><a href="events.html">Event Transport</a></li>
+                    <li><a href="tour.html">Customised Tour Transport</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-6 mb-30">
+                <div class="footer-widget">
+                  <h4 class="title">Get started</h4>
+                  <ul class="footer-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="footer-widget">
+                  <h4 class="title">Newsletter</h4>
+                  <form class="subscribe-form">
+                    <label class="subscribe-icon"></label>
+                    <input
+                      type="text"
+                      class="form--control"
+                      placeholder="Enter Email"
+                    />
+                    <button type="submit" class="btn--base">
+                      Subscribe Us
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright-area">
+            <p>© 2003 Dashmesh Travel. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      End Footer
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    </div>
+
+    <!-- jquery -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- swipper js -->
+    <script src="assets/js/swiper.min.js"></script>
+    <!-- lightcase js-->
+    <script src="assets/js/lightcase.js"></script>
+    <!-- odometer js -->
+    <script src="assets/js/odometer.min.js"></script>
+    <!-- viewport js -->
+    <script src="assets/js/viewport.jquery.js"></script>
+    <!-- progress js -->
+    <script src="assets/js/circle-progress.min.js"></script>
+    <!-- aos js file -->
+    <script src="assets/js/aos.js"></script>
+    <!-- nice select js -->
+    <script src="assets/js/jquery.nice-select.js"></script>
+    <!-- main -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

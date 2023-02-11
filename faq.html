@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dashmesh Travel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/82dc758c6a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome css link -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/fav.png"
+      type="image/x-icon"
+    />
+    <!-- swipper css link -->
+    <link rel="stylesheet" href="assets/css/swiper.min.css" />
+    <!-- lightcase css links -->
+    <link rel="stylesheet" href="assets/css/lightcase.css" />
+    <!-- odometer css link -->
+    <link rel="stylesheet" href="assets/css/odometer.css" />
+    <!-- line-awesome-icon css -->
+    <link rel="stylesheet" href="assets/css/icomoon.css" />
+    <!-- line-awesome-icon css -->
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css" />
+    <!-- animate.css -->
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <!-- aos.css -->
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <!-- nice select css -->
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <!-- main style css link -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="page-wrapper">
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Preloader
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <div class="preloader">
+        <svg
+          role="img"
+          aria-label="Mouth and eyes come from 9:00 and rotate clockwise into position, right eye blinks, then all parts rotate and merge into 3:00"
+          class="smiley"
+          viewBox="0 0 128 128"
+          width="128px"
+          height="128px"
+        >
+          <defs>
+            <clipPath id="smiley-eyes">
+              <circle
+                class="smiley__eye1"
+                cx="64"
+                cy="64"
+                r="8"
+                transform="rotate(-40,64,64) translate(0,-56)"
+              />
+              <circle
+                class="smiley__eye2"
+                cx="64"
+                cy="64"
+                r="8"
+                transform="rotate(40,64,64) translate(0,-56)"
+              />
+            </clipPath>
+            <linearGradient id="smiley-grad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#000" />
+              <stop offset="100%" stop-color="#fff" />
+            </linearGradient>
+            <mask id="smiley-mask">
+              <rect
+                x="0"
+                y="0"
+                width="128"
+                height="128"
+                fill="url(#smiley-grad)"
+              />
+            </mask>
+          </defs>
+          <g
+            stroke-linecap="round"
+            stroke-width="12"
+            stroke-dasharray="175.93 351.86"
+          >
+            <g>
+              <rect
+                fill="hsl(193,90%,50%)"
+                width="128"
+                height="64"
+                clip-path="url(#smiley-eyes)"
+              />
+              <g fill="none" stroke="hsl(193,90%,50%)">
+                <circle
+                  class="smiley__mouth1"
+                  cx="64"
+                  cy="64"
+                  r="56"
+                  transform="rotate(180,64,64)"
+                />
+                <circle
+                  class="smiley__mouth2"
+                  cx="64"
+                  cy="64"
+                  r="56"
+                  transform="rotate(0,64,64)"
+                />
+              </g>
+            </g>
+            <g mask="url(#smiley-mask)">
+              <rect
+                fill="hsl(223,90%,50%)"
+                width="128"
+                height="64"
+                clip-path="url(#smiley-eyes)"
+              />
+              <g fill="none" stroke="hsl(223,90%,50%)">
+                <circle
+                  class="smiley__mouth1"
+                  cx="64"
+                  cy="64"
+                  r="56"
+                  transform="rotate(180,64,64)"
+                />
+                <circle
+                  class="smiley__mouth2"
+                  cx="64"
+                  cy="64"
+                  r="56"
+                  transform="rotate(0,64,64)"
+                />
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Preloader
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Header
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <header class="header-section header-section-one">
+        <div class="header">
+          <div class="header-bottom-area">
+            <div class="container-fluid">
+              <div class="header-menu-content">
+                <nav class="navbar navbar-expand-lg p-0">
+                  <a class="site-logo site-title" href="index.html"
+                    ><img src="assets/images/logo.png" alt="site-logo"
+                  /></a>
+                  <button
+                    class="navbar-toggler ml-auto"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="fas fa-bars"></span>
+                  </button>
+                  <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                  >
+                    <ul class="navbar-nav main-menu ml-auto">
+                      <li><a href="index.html">Home</a></li>
+                      <li class="menu_has_children">
+                        <a href="service.html">Our Services</a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="employee-transport.html"
+                              >Corporate Employee Transport</a
+                            >
+                          </li>
+                          <li>
+                            <a href="school.html"
+                              >School Faculty/Student Transport</a
+                            >
+                          </li>
+                          <li>
+                            <a href="college.html"
+                              >College Faculty/Student Transport</a
+                            >
+                          </li>
+                          <li>
+                            <a href="events.html">Event Transport</a>
+                          </li>
+
+                          <li>
+                            <a href="tour.html">Customised Tour Transport</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="faq.html">Faq</a></li>
+                      <li><a href="about.html">About Us</a></li>
+                    </ul>
+                    <div class="header-right">
+                      <div class="search-bar d-none d-lg-block"></div>
+                      <div class="header-action-area">
+                        <a href="contact.html" class="action-btn two"
+                          ><i class="fa-solid fa-phone"></i
+                        ></a>
+                        <div class="header-action">
+                          <a href="contact.html" class="btn--base"
+                            ><i class="fa-solid fa-phone"></i>Contact Us</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Header
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Banner
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <section
+        class="banner-section inner-banner-section bg-overlay-black bg_img"
+        data-background="assets/images/bg/inner-bg.png"
+      >
+        <div class="container-fluid">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-xl-12 text-center">
+              <div class="banner-content">
+                <h1 class="title">Read FAQ’s</h1>
+                <div class="breadcrumb-area">
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item">
+                        <a href="index.html">Home</a>
+                      </li>
+                      <li class="breadcrumb-item active" aria-current="page">
+                        FAQ
+                      </li>
+                    </ol>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Banner
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Faq
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <section class="faq-section bg--gray ptb-120">
+        <div class="container">
+          <div class="row justify-content-center mb-30-none">
+            <div class="col-xl-6 col-lg-6 mb-30">
+              <div class="faq-header-area">
+                <h3 class="title">General Questions</h3>
+              </div>
+              <div class="faq-wrapper">
+                <div class="faq-item active open">
+                  <h3 class="faq-title">
+                    <span class="title"
+                      >1. Is the person, who has booked the ticket through
+                      his/her credit/ debit card need to be one of the
+                      passengers?</span
+                    ><span class="right-icon"></span>
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      It is not mandatory for the credit/ debit card holder to
+                      be a co-passenger. Mode of payment and traveling person
+                      are independent of each other. However, it is necessary
+                      for the passenger to carry any of the valid proof of
+                      identity at the time of boarding.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <h3 class="faq-title">
+                    <span class="title">2. How many people do they hold?</span
+                    ><span class="right-icon"></span>
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      Some buses have a seating capacity of more than 15
+                      passengers including the operator and Few buses have a
+                      seating capacity of 45-50 passengers including the
+                      operator.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <h3 class="faq-title">
+                    <span class="title"
+                      >3. What are the cancellation policies & charges?</span
+                    ><span class="right-icon"></span>
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      Cancellation charges would be calculated on the basis of
+                      UPSRTC Business Rules shall apply. Further, bank charges
+                      &/or convenience charges shall also apply as per concerned
+                      PG / Bank rules. Refund shall normally be processed in 7
+                      to 10 days of request and shall be automatically routed to
+                      the same credit / debit card or bank account.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <h3 class="faq-title">
+                    <span class="title">4. What payment options do I have?</span
+                    ><span class="right-icon"></span>
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      The different payment options are:<br />
+                      1- Credit card<br />
+                      2- Debit card<br />
+                      3- Internet banking (internet enabled online bank account)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 mb-30">
+              <div class="faq-header-area">
+                <h3 class="title">Managing Your Booking</h3>
+              </div>
+              <div class="faq-wrapper">
+                <div class="faq-item active open">
+                  <h3 class="faq-title">
+                    <span class="title">1. Is rebooking possible?</span
+                    ><span class="right-icon"></span>
+                  </h3>
+                  <div class="faq-content">
+                    <p>Yes you can rebook your ticket without any problems.</p>
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <h3 class="faq-title">
+                    <span class="title"
+                      >2. Can I take my pet on a bus trip?</span
+                    ><span class="right-icon"></span>
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      Pets are generally not allowed on board. An exception is a
+                      guide dog: This may be on board, but must be registered in
+                      advance.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <h3 class="faq-title">
+                    <span class="title"
+                      >3. Can I take my wheelchair on board the bus?</span
+                    ><span class="right-icon"></span>
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      It is possible to take a wheelchair in the baggage
+                      compartment and it is usually free of charge.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <h3 class="faq-title">
+                    <span class="title"
+                      >4. What impact does the pandemic have on bus
+                      transport?</span
+                    ><span class="right-icon"></span>
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      The impact of the coronavirus on the transport sector and
+                      therefore on the companies has been devastating. Dashmesh
+                      Travel has been working on the issue in depth over the
+                      past year and will continue to collect and provide
+                      information and advice to all travelers until the end of
+                      the pandemic.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Faq
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Contact
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <section class="contact-section bg--gray ptb-120">
+        <div class="contact-element">
+          <img src="assets/images/element/element-18.png" alt="element" />
+        </div>
+        <div class="container">
+          <div class="row justify-content-center mb-30-none">
+            <div class="col-xl-5 col-lg-5 mb-30">
+              <div
+                class="contact-left-content"
+                data-aos="fade-right"
+                data-aos-duration="1200"
+              >
+                <span class="sub-title">Talk to us</span>
+                <h2 class="title">Any Question? Fell Free to Contact</h2>
+              </div>
+            </div>
+            <div class="col-xl-7 col-lg-7 mb-30">
+              <div
+                class="contact-form-inner"
+                data-aos="fade-left"
+                data-aos-duration="1200"
+              >
+                <div class="contact-form-area">
+                  <form class="contact-form">
+                    <div class="row justify-content-center mb-20-none">
+                      <div class="col-xl-6 col-lg-6 form-group">
+                        <label class="icon"></label>
+                        <input
+                          type="text"
+                          class="form--control"
+                          name="name"
+                          placeholder="Name"
+                          required
+                        />
+                      </div>
+                      <div class="col-xl-6 col-lg-6 form-group">
+                        <label class="icon"></label>
+                        <input
+                          type="email"
+                          class="form--control"
+                          name="email"
+                          placeholder="Email"
+                          required
+                        />
+                      </div>
+                      <div class="col-xl-6 col-lg-6 form-group">
+                        <label class="icon"></label>
+                        <input
+                          type="text"
+                          class="form--control"
+                          name="phone"
+                          placeholder="Phone"
+                          required
+                        />
+                      </div>
+                      <div class="col-xl-6 col-lg-6 form-group">
+                        <label class="icon"></label>
+                        <input
+                          type="text"
+                          class="form--control"
+                          name="Subject"
+                          placeholder="Subject"
+                          required
+                        />
+                      </div>
+                      <div class="col-lg-12 form-group">
+                        <label class="icon"></label>
+                        <textarea
+                          class="form--control"
+                          placeholder="Message"
+                          required
+                        ></textarea>
+                      </div>
+                      <div class="col-lg-12 form-group">
+                        <button type="submit" class="btn--base mt-10">
+                          Submit Now
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      End Contact
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Footer
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <footer class="footer-section section--bg pt-120">
+        <div
+          class="footer-element"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          <img src="assets/images/element/element-1.png" alt="element" />
+        </div>
+        <div class="container">
+          <div class="footer-top-area">
+            <div class="row align-items-end mb-30-none">
+              <div class="col-xl-4 col-lg-3 col-md-6 mb-30">
+                <div class="footer-widget">
+                  <div class="footer-logo">
+                    <a class="site-logo site-title" href="index.html"
+                      ><img src="assets/images/logo.png" alt="site-logo"
+                    /></a>
+                  </div>
+                  <p>
+                    Dashmesh Tour & Travel was founded in 2003 as a tour
+                    operator and travel business by Mr. Jitender Pal singh, the
+                    company founder.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom-area">
+            <div class="row mb-30-none">
+              <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                <div class="footer-widget">
+                  <h4 class="title">India</h4>
+                  <ul class="t-white list">
+                    <li>Head Office - Delhi</li>
+                    <li>
+                      Contact : +91-9990633399 <br />
+                      +91-9999433399 <br />
+                      +91-9990433399
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                <div class="footer-widget">
+                  <h4 class="title">Services</h4>
+                  <ul class="footer-list">
+                    <li>
+                      <a href="employee-transport.html"
+                        >Corporate Employee Transport
+                      </a>
+                    </li>
+                    <li>
+                      <a href="school.html"
+                        >School Faculty / Student Transport</a
+                      >
+                    </li>
+                    <li>
+                      <a href="college.html"
+                        >College Faculty / Student Transport</a
+                      >
+                    </li>
+                    <li><a href="events.html">Event Transport</a></li>
+                    <li><a href="tour.html">Customised Tour Transport</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-6 mb-30">
+                <div class="footer-widget">
+                  <h4 class="title">Get started</h4>
+                  <ul class="footer-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="footer-widget">
+                  <h4 class="title">Newsletter</h4>
+                  <form class="subscribe-form">
+                    <label class="subscribe-icon"></label>
+                    <input
+                      type="text"
+                      class="form--control"
+                      placeholder="Enter Email"
+                    />
+                    <button type="submit" class="btn--base">
+                      Subscribe Us
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright-area">
+            <p>© 2003 Dashmesh Travel. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      End Footer
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    </div>
+
+    <!-- jquery -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- swipper js -->
+    <script src="assets/js/swiper.min.js"></script>
+    <!-- lightcase js-->
+    <script src="assets/js/lightcase.js"></script>
+    <!-- odometer js -->
+    <script src="assets/js/odometer.min.js"></script>
+    <!-- viewport js -->
+    <script src="assets/js/viewport.jquery.js"></script>
+    <!-- progress js -->
+    <script src="assets/js/circle-progress.min.js"></script>
+    <!-- aos js file -->
+    <script src="assets/js/aos.js"></script>
+    <!-- nice select js -->
+    <script src="assets/js/jquery.nice-select.js"></script>
+    <!-- main -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

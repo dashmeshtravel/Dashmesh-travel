@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dashmesh Travel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/82dc758c6a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome css link -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/fav.png"
+      type="image/x-icon"
+    />
+    <!-- swipper css link -->
+    <link rel="stylesheet" href="assets/css/swiper.min.css" />
+    <!-- lightcase css links -->
+    <link rel="stylesheet" href="assets/css/lightcase.css" />
+    <!-- odometer css link -->
+    <link rel="stylesheet" href="assets/css/odometer.css" />
+    <!-- line-awesome-icon css -->
+    <link rel="stylesheet" href="assets/css/icomoon.css" />
+    <!-- line-awesome-icon css -->
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css" />
+    <!-- animate.css -->
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <!-- aos.css -->
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <!-- nice select css -->
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <!-- main style css link -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="page-wrapper">
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Preloader
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <div class="preloader">
+        <svg
+          role="img"
+          aria-label="Mouth and eyes come from 9:00 and rotate clockwise into position, right eye blinks, then all parts rotate and merge into 3:00"
+          class="smiley"
+          viewBox="0 0 128 128"
+          width="128px"
+          height="128px"
+        >
+          <defs>
+            <clipPath id="smiley-eyes">
+              <circle
+                class="smiley__eye1"
+                cx="64"
+                cy="64"
+                r="8"
+                transform="rotate(-40,64,64) translate(0,-56)"
+              />
+              <circle
+                class="smiley__eye2"
+                cx="64"
+                cy="64"
+                r="8"
+                transform="rotate(40,64,64) translate(0,-56)"
+              />
+            </clipPath>
+            <linearGradient id="smiley-grad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#000" />
+              <stop offset="100%" stop-color="#fff" />
+            </linearGradient>
+            <mask id="smiley-mask">
+              <rect
+                x="0"
+                y="0"
+                width="128"
+                height="128"
+                fill="url(#smiley-grad)"
+              />
+            </mask>
+          </defs>
+          <g
+            stroke-linecap="round"
+            stroke-width="12"
+            stroke-dasharray="175.93 351.86"
+          >
+            <g>
+              <rect
+                fill="hsl(193,90%,50%)"
+                width="128"
+                height="64"
+                clip-path="url(#smiley-eyes)"
+              />
+              <g fill="none" stroke="hsl(193,90%,50%)">
+                <circle
+                  class="smiley__mouth1"
+                  cx="64"
+                  cy="64"
+                  r="56"
+                  transform="rotate(180,64,64)"
+                />
+                <circle
+                  class="smiley__mouth2"
+                  cx="64"
+                  cy="64"
+                  r="56"
+                  transform="rotate(0,64,64)"
+                />
+              </g>
+            </g>
+            <g mask="url(#smiley-mask)">
+              <rect
+                fill="hsl(223,90%,50%)"
+                width="128"
+                height="64"
+                clip-path="url(#smiley-eyes)"
+              />
+              <g fill="none" stroke="hsl(223,90%,50%)">
+                <circle
+                  class="smiley__mouth1"
+                  cx="64"
+                  cy="64"
+                  r="56"
+                  transform="rotate(180,64,64)"
+                />
+                <circle
+                  class="smiley__mouth2"
+                  cx="64"
+                  cy="64"
+                  r="56"
+                  transform="rotate(0,64,64)"
+                />
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Preloader
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Header
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <header class="header-section header-section-one">
+        <div class="header">
+          <div class="header-bottom-area">
+            <div class="container-fluid">
+              <div class="header-menu-content">
+                <nav class="navbar navbar-expand-lg p-0">
+                  <a class="site-logo site-title" href="index.html"
+                    ><img src="assets/images/logo.png" alt="site-logo"
+                  /></a>
+                  <button
+                    class="navbar-toggler ml-auto"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="fas fa-bars"></span>
+                  </button>
+                  <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                  >
+                    <ul class="navbar-nav main-menu ml-auto">
+                      <li><a href="index.html">Home</a></li>
+
+                      <li class="menu_has_children">
+                        <a href="service.html">Our Services</a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="employee-transport.html"
+                              >Corporate Employee Transport</a
+                            >
+                          </li>
+                          <li>
+                            <a href="school.html"
+                              >School Faculty/Student Transport</a
+                            >
+                          </li>
+                          <li>
+                            <a href="college.html"
+                              >College Faculty/Student Transport</a
+                            >
+                          </li>
+                          <li>
+                            <a href="events.html">Event Transport</a>
+                          </li>
+
+                          <li>
+                            <a href="tour.html">Customised Tour Transport</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="faq.html">Faq</a></li>
+                      <li><a href="about.html">About Us</a></li>
+                    </ul>
+                    <div class="header-right">
+                      <div class="search-bar d-none d-lg-block"></div>
+                      <div class="header-action-area">
+                        <a href="contact.html" class="action-btn two"
+                          ><i class="fa-solid fa-phone"></i
+                        ></a>
+                        <div class="header-action">
+                          <a href="contact.html" class="btn--base"
+                            ><i class="fa-solid fa-phone"></i>Contact Us</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Header
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Banner
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <section
+        class="banner-section inner-banner-section bg-overlay-black bg_img"
+        data-background="assets/images/bg/inner-bg.png"
+      >
+        <div class="container-fluid">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-xl-12 text-center">
+              <div class="banner-content">
+                <h1 class="title">About-Us</h1>
+                <div class="breadcrumb-area">
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item">
+                        <a href="index.html">Home</a>
+                      </li>
+                      <li class="breadcrumb-item active" aria-current="page">
+                        About-Us
+                      </li>
+                    </ol>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Banner
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start About
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <section class="about-section about--style page-wrapper-two ptb-120">
+        <div class="container">
+          <div class="row justify-content-center mb-30-none">
+            <div class="col-xl-6 col-lg-6 mb-30">
+              <div
+                class="about-thumb"
+                data-aos="fade-right"
+                data-aos-duration="1200"
+              >
+                <img src="assets/images/about-two.jpg" alt="about" />
+                <div
+                  class="about-element-two"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                ></div>
+                <div class="about-video-wrapper">
+                  <div class="video-main">
+                    <div class="promo-video"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 mb-30">
+              <div
+                class="about-content"
+                data-aos="fade-left"
+                data-aos-duration="1200"
+              >
+                <span class="sub-title text--base">About Us</span>
+                <p>
+                  Dashmesh Tour & Travel was founded in 2003 as a tour operator
+                  and travel business by Mr. Jitender Pal singh, the company
+                  founder. We provide Employee Transportation Services to
+                  Corporate Sector Companies, Industrial Houses, Multinational
+                  Companies, and so on. We, Dashmesh Tour & Travel are a
+                  prominent bus service Company involved in providing our
+                  clients with a wide range of Tour and Travel Services.These
+                  include services such as bus rental, school bus rental, and
+                  many others. We provide a variety of services and packages to
+                  meet the diverse needs of our clients. Dashmesh Tour & Travel
+                  is a technology-driven Company that provides the highest level
+                  of pleasure to its clients by offering cutting-edge corporate
+                  transportation services.
+                </p>
+                <div class="about-book-area">
+                  <div class="about-book-left">
+                    <h3 class="call-title">Call for book an order</h3>
+                    <span class="call"
+                      ><a href="tel:+919999433399">+91-9990633399</a></span
+                    >
+                  </div>
+                  <div class="about-book-right">
+                    <a href="contact.html" class="btn--base">Book Now</a>
+                  </div>
+                </div>
+                <p>
+                  Now, the company’s mission is to provide cutting- edge
+                  passenger transportation to the tourist, industrial, and
+                  trading communities. Its goal is to deliver total customer
+                  satisfaction via constant improvement in service quality and
+                  effective use of technology, and to position itself as one of
+                  India’s leading passenger transportation companies. We have
+                  been able to grow with only one and one motive that is of
+                  customer delight.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End About
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Statistics
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <section
+        class="statistics-section bg-overlay-black ptb-120 bg_img"
+        data-background="assets/images/bg/bg-2.png"
+      >
+        <div class="container">
+          <div class="statistics-area">
+            <div class="row mb-30-none">
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
+                <div class="statistics-item">
+                  <div class="statistics-content">
+                    <div class="odo-area">
+                      <h3 class="odo-title odometer" data-odometer-final="95">
+                        0
+                      </h3>
+                    </div>
+                    <p>Professional Drivers</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
+                <div class="statistics-item">
+                  <div class="statistics-content">
+                    <div class="odo-area">
+                      <h3 class="odo-title odometer" data-odometer-final="43">
+                        0
+                      </h3>
+                    </div>
+                    <p>Mini Bus</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
+                <div class="statistics-item">
+                  <div class="statistics-content">
+                    <div class="odo-area">
+                      <h3 class="odo-title odometer" data-odometer-final="45">
+                        0
+                      </h3>
+                    </div>
+                    <p>Buses</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
+                <div
+                  class="statistics-item"
+                  data-aos="zoom-in"
+                  data-aos-duration="1200"
+                >
+                  <div class="statistics-content">
+                    <div class="odo-area">
+                      <h3 class="odo-title odometer" data-odometer-final="195">
+                        0
+                      </h3>
+                    </div>
+                    <p>Travels</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    End Statistics
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Overview
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <div class="overview-section ptb-120">
+        <div class="container-fluid">
+          <div class="overview-area">
+            <div
+              class="overview-element"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <img src="assets/images/element/element-6.png" alt="element" />
+            </div>
+            <div class="overview-tab">
+              <nav>
+                <div
+                  class="overview-tab-thumb"
+                  data-aos="fade-left"
+                  data-aos-duration="1200"
+                >
+                  <img
+                    src="assets/images/overview/overview-2.png"
+                    alt="overview"
+                  />
+                  <div class="nav-tab-area">
+                    <div class="nav-tab-header">
+                      <h2 class="t-white">Fleet</h2>
+                    </div>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                      <button
+                        class="nav-link"
+                        id="private-jet-tab"
+                        data-toggle="tab"
+                        data-target="#private-jet"
+                        type="button"
+                        role="tab"
+                        aria-controls="private-jet"
+                        aria-selected="true"
+                      >
+                        <span>01</span> Luxury tempo travellers
+                      </button>
+                      <button
+                        class="nav-link active"
+                        id="business-jet-tab"
+                        data-toggle="tab"
+                        data-target="#business-jet"
+                        type="button"
+                        role="tab"
+                        aria-controls="business-jet"
+                        aria-selected="false"
+                      >
+                        <span>02</span> Luxury mini buses
+                      </button>
+                      <button
+                        class="nav-link"
+                        id="private-helicopter-tab"
+                        data-toggle="tab"
+                        data-target="#private-helicopter"
+                        type="button"
+                        role="tab"
+                        aria-controls="private-helicopter"
+                        aria-selected="false"
+                      >
+                        <span>03</span> Luxury AC buses
+                      </button>
+                      <button
+                        class="nav-link"
+                        id="air-ambulance-tab"
+                        data-toggle="tab"
+                        data-target="#air-ambulance"
+                        type="button"
+                        role="tab"
+                        aria-controls="air-ambulance"
+                        aria-selected="false"
+                      >
+                        <span>04</span> Daily Employee Communication Buses
+                      </button>
+                      <button
+                        class="nav-link"
+                        id="air-ambulance-tab"
+                        data-toggle="tab"
+                        data-target="#ac-cabs"
+                        type="button"
+                        role="tab"
+                        aria-controls="air-ambulance"
+                        aria-selected="false"
+                      >
+                        <span>05</span> AC Cabs
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              <div
+                class="tab-content"
+                id="nav-tabContent"
+                data-aos="fade-right"
+                data-aos-duration="1200"
+              >
+                <div
+                  class="tab-pane fade"
+                  id="private-jet"
+                  role="tabpanel"
+                  aria-labelledby="private-jet-tab"
+                >
+                  <div class="overview-item">
+                    <div class="overview-thumb">
+                      <img
+                        src="assets/images/overview/overview-1.png"
+                        alt="overview"
+                      />
+                      <div class="overview-thumb-content">
+                        <h3 class="title">
+                          <a href="service-details.html"
+                            >Luxury tempo travellers
+                          </a>
+                        </h3>
+                        <p>
+                          Trade crowded airports and wasted time for the ease,
+                          comfort, and convenience of travel by private jet.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade show active"
+                  id="business-jet"
+                  role="tabpanel"
+                  aria-labelledby="business-jet-tab"
+                >
+                  <div class="overview-item">
+                    <div class="overview-thumb">
+                      <img
+                        src="assets/images/overview/overview-2.png"
+                        alt="overview"
+                      />
+                      <div class="overview-thumb-content">
+                        <h3 class="title">
+                          <a href="service-details.html">Luxury mini buses</a>
+                        </h3>
+                        <p>
+                          Trade crowded airports and wasted time for the ease,
+                          comfort, and convenience of travel by private jet.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="private-helicopter"
+                  role="tabpanel"
+                  aria-labelledby="private-helicopter-tab"
+                >
+                  <div class="overview-item">
+                    <div class="overview-thumb">
+                      <img
+                        src="assets/images/overview/overview-3.png"
+                        alt="overview"
+                      />
+                      <div class="overview-thumb-content">
+                        <h3 class="title">
+                          <a href="service-details.html">Luxury AC buses</a>
+                        </h3>
+                        <p>
+                          Trade crowded airports and wasted time for the ease,
+                          comfort, and convenience of travel by private jet.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="air-ambulance"
+                  role="tabpanel"
+                  aria-labelledby="air-ambulance-tab"
+                >
+                  <div class="overview-item">
+                    <div class="overview-thumb">
+                      <img
+                        src="assets/images/overview/overview-4.png"
+                        alt="overview"
+                      />
+                      <div class="overview-thumb-content">
+                        <h3 class="title">
+                          <a href="service-details.html"
+                            >Daily Employee Communication Buses</a
+                          >
+                        </h3>
+                        <p>
+                          Trade crowded airports and wasted time for the ease,
+                          comfort, and convenience of travel by private jet.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="ac-cabs"
+                  role="tabpanel"
+                  aria-labelledby="air-ambulance-tab"
+                >
+                  <div class="overview-item">
+                    <div class="overview-thumb">
+                      <img
+                        src="assets/images/overview/overview-5.png"
+                        alt="overview"
+                      />
+                      <div class="overview-thumb-content">
+                        <h3 class="title">
+                          <a href="service-details.html">AC Cabs</a>
+                        </h3>
+                        <p>
+                          Trade crowded airports and wasted time for the ease,
+                          comfort, and convenience of travel by private jet.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      End Overview
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Contact
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <section class="contact-section bg--gray ptb-120">
+        <div class="contact-element">
+          <img src="assets/images/element/element-18.png" alt="element" />
+        </div>
+        <div class="container">
+          <div class="row justify-content-center mb-30-none">
+            <div class="col-xl-5 col-lg-5 mb-30">
+              <div
+                class="contact-left-content"
+                data-aos="fade-right"
+                data-aos-duration="1200"
+              >
+                <span class="sub-title">Talk to us</span>
+                <h2 class="title">Any Question? Fell Free to Contact</h2>
+              </div>
+            </div>
+            <div class="col-xl-7 col-lg-7 mb-30">
+              <div
+                class="contact-form-inner"
+                data-aos="fade-left"
+                data-aos-duration="1200"
+              >
+                <div class="contact-form-area">
+                  <form class="contact-form">
+                    <div class="row justify-content-center mb-20-none">
+                      <div class="col-xl-6 col-lg-6 form-group">
+                        <label class="icon"></label>
+                        <input
+                          type="text"
+                          class="form--control"
+                          name="name"
+                          placeholder="Name"
+                          required
+                        />
+                      </div>
+                      <div class="col-xl-6 col-lg-6 form-group">
+                        <label class="icon"></label>
+                        <input
+                          type="email"
+                          class="form--control"
+                          name="email"
+                          placeholder="Email"
+                          required
+                        />
+                      </div>
+                      <div class="col-xl-6 col-lg-6 form-group">
+                        <label class="icon"></label>
+                        <input
+                          type="text"
+                          class="form--control"
+                          name="phone"
+                          placeholder="Phone"
+                          required
+                        />
+                      </div>
+                      <div class="col-xl-6 col-lg-6 form-group">
+                        <label class="icon"></label>
+                        <input
+                          type="text"
+                          class="form--control"
+                          name="Subject"
+                          placeholder="Subject"
+                          required
+                        />
+                      </div>
+                      <div class="col-lg-12 form-group">
+                        <label class="icon"></label>
+                        <textarea
+                          class="form--control"
+                          placeholder="Message"
+                          required
+                        ></textarea>
+                      </div>
+                      <div class="col-lg-12 form-group">
+                        <button type="submit" class="btn--base mt-10">
+                          Submit Now
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    End Contact
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Footer
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <footer class="footer-section section--bg pt-120">
+        <div
+          class="footer-element"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          <img src="assets/images/element/element-1.png" alt="element" />
+        </div>
+        <div class="container">
+          <div class="footer-top-area">
+            <div class="row align-items-end mb-30-none">
+              <div class="col-xl-4 col-lg-3 col-md-6 mb-30">
+                <div class="footer-widget">
+                  <div class="footer-logo">
+                    <a class="site-logo site-title" href="index.html"
+                      ><img src="assets/images/logo.png" alt="site-logo"
+                    /></a>
+                  </div>
+                  <p>
+                    Dashmesh Tour & Travel was founded in 2003 as a tour
+                    operator and travel business by Mr. Jitender Pal singh, the
+                    company founder.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom-area">
+            <div class="row mb-30-none">
+              <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                <div class="footer-widget">
+                  <h4 class="title">India</h4>
+                  <ul class="t-white list">
+                    <li>Head Office - Delhi</li>
+                    <li>
+                      Contact : +91-9990633399 <br />
+                      +91-9999433399 <br />
+                      +91-9990433399
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                <div class="footer-widget">
+                  <h4 class="title">Services</h4>
+                  <ul class="footer-list">
+                    <li>
+                      <a href="employee-transport.html"
+                        >Corporate Employee Transport
+                      </a>
+                    </li>
+                    <li>
+                      <a href="school.html"
+                        >School Faculty / Student Transport</a
+                      >
+                    </li>
+                    <li>
+                      <a href="college.html"
+                        >College Faculty / Student Transport</a
+                      >
+                    </li>
+                    <li><a href="events.html">Event Transport</a></li>
+                    <li><a href="tour.html">Customised Tour Transport</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-6 mb-30">
+                <div class="footer-widget">
+                  <h4 class="title">Get started</h4>
+                  <ul class="footer-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="footer-widget">
+                  <h4 class="title">Newsletter</h4>
+                  <form class="subscribe-form">
+                    <label class="subscribe-icon"></label>
+                    <input
+                      type="text"
+                      class="form--control"
+                      placeholder="Enter Email"
+                    />
+                    <button type="submit" class="btn--base">
+                      Subscribe Us
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright-area">
+            <p>© 2003 Dashmesh Travel. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      End Footer
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    </div>
+
+    <!-- jquery -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- swipper js -->
+    <script src="assets/js/swiper.min.js"></script>
+    <!-- lightcase js-->
+    <script src="assets/js/lightcase.js"></script>
+    <!-- odometer js -->
+    <script src="assets/js/odometer.min.js"></script>
+    <!-- viewport js -->
+    <script src="assets/js/viewport.jquery.js"></script>
+    <!-- progress js -->
+    <script src="assets/js/circle-progress.min.js"></script>
+    <!-- aos js file -->
+    <script src="assets/js/aos.js"></script>
+    <!-- nice select js -->
+    <script src="assets/js/jquery.nice-select.js"></script>
+    <!-- main -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
